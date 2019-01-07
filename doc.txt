@@ -1,0 +1,4 @@
+https://mlab.com/databases/mern_shopping_list#users
+mongodb://<dbuser>:<dbpassword>@ds251284.mlab.com:51284/mern_shopping_list
+username - raccoon
+userpassword - raccoon1234
