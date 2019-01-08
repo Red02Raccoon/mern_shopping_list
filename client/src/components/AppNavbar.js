@@ -23,7 +23,7 @@ export default class AppNavbar extends React.Component {
   render() {
     return (
       <div>
-        <Navbar color="dark" dark expand="sm">
+        <Navbar color="dark" dark expand="sm" style={{marginBottom: "20px"}}>
 					<Container>
 						<NavbarBrand href="/">Shopping list</NavbarBrand>
 						<NavbarToggler onClick={this.toggle} />
