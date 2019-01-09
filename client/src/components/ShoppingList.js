@@ -22,10 +22,9 @@ class ShoppingList extends Component {
 			<Container>
 				<ListGroup style={{marginTop: "25px"}}>
 					<TransitionGroup className="shopping-list">
-						{items.map(({name, id}) => (
-							<CSSTransition key={id} classNames= 'fade' timeout={500}>
+						{items.map(({name, _id}) => (<CSSTransition key={_id} classNames= 'fade' timeout={500}>
 								<ListGroupItem>
-									<Button color="danger" className="remove-btn" size="sm" onClick={this.removeItem.bind(this, id)} style={{marginRight: "10px"}}>
+									<Button color="danger" className="remove-btn" size="sm" onClick={this.removeItem.bind(this, _id)} style={{marginRight: "10px"}}>
 										&times;
 									</Button>
 									{name}
