@@ -1,0 +1,15 @@
+https://mlab.com/databases/mern_shopping_list#users
+mongodb://<dbuser>:<dbpassword>@ds251284.mlab.com:51284/mern_shopping_list
+
+// deploy to heroku
+
+- скачать на комп
+- залогиниться на сайте
+- в папке проекта 
+		- heroku login => ввод данных
+		- heroku create
+		- сделать коммит
+		- heroku git:remote -a ...secure-code...
+		- git push heroku master
+
+- app доступно по url в аккаунте
